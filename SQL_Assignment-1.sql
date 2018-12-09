@@ -126,7 +126,7 @@ select l.language_id, f.title
 from film f, language l
 where f.language_id = l.language_id AND f.title LIKE 'Q%' OR f.title LIKE 'K%' AND l.name = 'English';
 
-OR
+-- OR -- 
  	
 SELECT title
 FROM film
